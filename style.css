@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section .AllCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .AllCard .Card {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid #b3b2b2;
+  border-radius: 7px;
+  margin: 50px;
+  margin-left: 150px;
+}
+
+section .AllCard .Card .CardText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .AllCard .Card .CardText h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 27px;
+}
+
+section .AllCard .Card .CardText p {
+  font-size: 22px;
+}
+
+section .AllCard .Card .CardText button {
+  padding: 10px;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  border-radius: 5px;
+}
+
+section .AllCard .Card .CardText button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+section .CardList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section .CardList .CardListSecondRow {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid #b3b2b2;
+  border-radius: 7px;
+  margin: 50px;
+  margin-left: 150px;
+}
+
+section .CardList .CardListSecondRow .CardListSecondRowText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .CardList .CardListSecondRow .CardListSecondRowText h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 27px;
+}
+
+section .CardList .CardListSecondRow .CardListSecondRowText p {
+  font-size: 22px;
+}
+
+section .CardList .CardListSecondRow .CardListSecondRowText button {
+  padding: 10px;
+  margin-top: 90px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  border-radius: 5px;
+}
+
+section .CardList .CardListSecondRow .CardListSecondRowText button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

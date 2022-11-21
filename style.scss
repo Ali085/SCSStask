@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    .AllCard {
+        display: flex;
+
+        .Card {
+            flex-direction: column;
+            border: 1px solid rgb(179, 178, 178);
+            border-radius: 7px;
+            margin: 50px;
+            margin-left: 150px;
+            .CardText {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                h2 {
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                    font-size: 27px;
+                }
+
+                p {
+                    font-size: 22px;
+                }
+
+                button {
+                    padding: 10px;
+                    margin-top: 90px;
+                    margin-bottom: 30px;
+                    font-size: 20px;
+                    transition: .5s;
+                    border-radius: 5px;
+
+                }
+
+                button:hover {
+                    background-color: black;
+                    color: white;
+                    cursor: pointer;
+                }
+
+            }
+
+        }
+    }
+    .CardList{
+        display: flex;
+        .CardListSecondRow{
+            flex-direction: column;
+            border: 1px solid rgb(179, 178, 178);
+            border-radius: 7px;
+            margin: 50px;
+            margin-left: 150px;
+            .CardListSecondRowText{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h2 {
+                    margin-top: 20px;
+                    margin-bottom: 10px;
+                    font-size: 27px;
+                }
+
+                p {
+                    font-size: 22px;
+                }
+
+                button {
+                    padding: 10px;
+                    margin-top: 90px;
+                    margin-bottom: 30px;
+                    font-size: 20px;
+                    transition: .5s;
+                    border-radius: 5px;
+
+                }
+
+                button:hover {
+                    background-color: black;
+                    color: white;
+                    cursor: pointer;
+                }
+
+            }
+        }
+    }
+}
